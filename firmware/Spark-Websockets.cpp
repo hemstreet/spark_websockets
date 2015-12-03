@@ -603,7 +603,7 @@ bool WebSocketClient::send (char* message) {
 size_t WebSocketClient::base64Encode(byte* src, size_t srclength, char* target, size_t targsize) {
 
   size_t datalength = 0;
-	unsigned char input[3];unsigned
+	unsigned char input[3];
 	unsigned char output[4];
 	size_t i;
 
